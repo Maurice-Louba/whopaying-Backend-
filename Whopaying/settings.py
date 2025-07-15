@@ -32,7 +32,9 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'fallback_secret_key_for_dev')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "whopayingg.onrender.com"
+]
 
 AUTH_USER_MODEL = 'whopayingg.User'
 
@@ -99,6 +101,7 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://172.16.20.176:5175"
+    
     
 ]
 CORS_ALLOW_ALL_ORIGINS = True
