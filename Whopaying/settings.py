@@ -100,7 +100,8 @@ DATABASES = {
 }
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://172.16.20.176:5175"
+    "http://172.16.20.176:5175",
+    "https://whopaying-o9dg.onrender.com"
     
     
 ]
