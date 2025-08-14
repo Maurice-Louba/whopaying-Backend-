@@ -18,9 +18,9 @@ Ce backend gère les fonctionnalités suivantes :
 
 ## ⚙️ Technologies utilisées
 
-- **Node.js** : Environnement d'exécution JavaScript côté serveur.
-- **Express.js** : Framework minimaliste pour créer des API RESTful.
-- **MongoDB** : Base de données NoSQL pour stocker les données utilisateur et les transactions.
+- **React js** : Environnement d'exécution JavaScript côté serveur.
+- **Django rest framework** : Framework minimaliste pour créer des API RESTful.
+- **SQl lite** : Base de données NoSQL pour stocker les données utilisateur et les transactions.
 - **JWT (JSON Web Tokens)** : Pour l'authentification sécurisée des utilisateurs.
 - **Bcrypt.js** : Pour le hachage des mots de passe.
 
